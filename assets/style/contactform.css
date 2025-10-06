@@ -18,8 +18,15 @@
 
 /* Hero background gradient */
 .hero-gradient {
-    background: linear-gradient(135deg, var(--lavender) 0%, var(--blush) 55%, #fff 100%);
+    background:
+        linear-gradient(135deg, rgba(230, 230, 250, 0.7) 0%, rgba(255, 182, 193, 0.7) 55%, rgba(255, 255, 255, 0.7) 100%),
+        url(../img/contact-form-hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
+
 
 /* Buttons */
 .btn-submit {
