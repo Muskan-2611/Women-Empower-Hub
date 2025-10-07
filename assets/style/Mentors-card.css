@@ -6,6 +6,21 @@
       --gold:#ffcc70;
       --muted:#6b6b6b;
     }
+    .hero-bg{
+        background: 
+  linear-gradient(
+    135deg,
+    rgba(208, 163, 247, 0.6) 0%,
+    rgba(253, 231, 241, 0.6) 55%,
+    rgba(255, 255, 255, 0.6) 100%
+  ),
+  url('https://assets.entrepreneur.com/content/3x2/2000/1706012038-Shutterstock-2104258202.jpg');
+
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+
+    }
     .grad-text{
       background: linear-gradient(90deg,var(--deep), #9b59b6);
       -webkit-background-clip: text;

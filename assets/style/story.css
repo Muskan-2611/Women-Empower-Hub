@@ -10,9 +10,22 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.hero-gradient{
-  background: linear-gradient(135deg, var(--lavender) 0%, var(--blush) 55%, #fff 100%);
+.hero-gradient {
+  background: 
+    linear-gradient(
+      135deg,
+      rgba(230, 220, 255, 0.7) 0%,   /* lavender */
+      rgba(255, 200, 210, 0.7) 55%,  /* blush */
+      rgba(255, 255, 255, 0.7) 100%  /* white */
+    ),
+    url('https://storylab.co/wp-content/uploads/2022/03/AdobeStock_445841242.jpg');
+    
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-blend-mode: overlay; */
 }
+
 .btn-gold{background: var(--gold); color:#3a2f22; font-weight:600; border-radius: 40px;}
 .story-card {
   border: 1px solid rgba(0,0,0,0.08);

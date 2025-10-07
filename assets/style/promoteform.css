@@ -6,7 +6,7 @@
   --muted: #6b6b6b;
   --soft-purple: #D6A4E6;
   --soft-pink: #FADADD;
-  --hero-bg: linear-gradient(135deg, var(--soft-purple), var(--soft-pink));
+  
 }
 
 .grad-text {
@@ -15,9 +15,20 @@
   -webkit-text-fill-color: transparent;
 }
 
-.hero-gradient {
-  background: var(--hero-bg);
+.hero-bg {
+  background: 
+    linear-gradient(
+      135deg,
+      rgba(200, 180, 255, 0.7),  /* soft purple */
+      rgba(255, 180, 210, 0.7)   /* soft pink */
+    ),
+    url('../img/Promote-form-hero.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-blend-mode: overlay; */
 }
+
 
 .btn-gold {
   background: var(--gold);
