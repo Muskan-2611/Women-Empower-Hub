@@ -12,7 +12,20 @@
       -webkit-text-fill-color: transparent;
     }
      .hero-gradient{
-      background: linear-gradient(135deg, var(--lavender) 0%, var(--blush) 55%, #fff 100%);
+     background: 
+  linear-gradient(
+    135deg,
+    rgba(208, 163, 247, 0.6) 0%,
+    rgba(253, 231, 241, 0.6) 55%,
+    rgba(255, 255, 255, 0.6) 100%
+  ),
+  url('../img/learn-hero.jpg');
+
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+
+
     }
     .btn-gold{background: var(--gold); color:#3a2f22; font-weight:600; border-radius: 40px;}
      .btn-gold2{background: var(--gold); color:#3a2f22; font-weight:600; }
