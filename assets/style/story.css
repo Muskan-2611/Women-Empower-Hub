@@ -18,7 +18,7 @@
       rgba(255, 200, 210, 0.7) 55%,  /* blush */
       rgba(255, 255, 255, 0.7) 100%  /* white */
     ),
-    url('https://storylab.co/wp-content/uploads/2022/03/AdobeStock_445841242.jpg');
+    url('../img/Story-hero.jpg');
     
   background-size: cover;
   background-position: center;

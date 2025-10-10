@@ -6,7 +6,7 @@
   --muted: #6b6b6b;
   --soft-purple: #D6A4E6;
   --soft-pink: #FADADD;
-  
+  --hero-bg: linear-gradient(135deg, var(--soft-purple), var(--soft-pink));  
 }
 
 .grad-text {

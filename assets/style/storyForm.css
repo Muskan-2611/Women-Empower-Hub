@@ -9,20 +9,36 @@
     --hero-bg: linear-gradient(135deg, var(--soft-purple), var(--soft-pink));
     --purple-button: #7b4397;
 }
+
 .grad-text {
     background: linear-gradient(90deg, var(--deep), #9b59b6);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 .hero-gradient {
-    background: var(--hero-bg);
+   background: 
+    linear-gradient(
+      135deg,
+      rgba(24, 1, 82, 0.7) 0%,   /* lavender */
+      rgba(255, 200, 210, 0.7) 55%,  /* blush */
+      rgba(255, 255, 255, 0.7) 100%  /* white */
+    ),
+    url('../img/Story-form-hero.webp');
+    
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
 }
+
 .btn-gold {
     background: var(--gold);
     color: #3a2f22;
     font-weight: 600;
     border-radius: 40px;
 }
+
 .btn-purple {
     background-color: var(--purple-button);
     color: #fff;
@@ -32,23 +48,30 @@
     padding: 0.5rem 1.5rem;
     transition: background-color 0.3s ease;
 }
+
 .btn-purple:hover {
     background-color: #623b75;
     color: #fff;
 }
+
 .bg-lavender {
     background: var(--lavender);
 }
+
 .bg-blush {
     background: var(--blush);
 }
-.form-control, .form-select {
+
+.form-control,
+.form-select {
     border-radius: 10px;
 }
+
 .img-fluid {
     max-width: 100%;
     height: auto;
 }
+
 /* Glassmorphism Effect */
 .glass-card {
     background: rgba(255, 255, 255, 0.2);
@@ -57,22 +80,24 @@
     border-radius: 15px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
 .glass-card .form-control,
 .glass-card .form-select {
     background: rgba(255, 255, 255, 0.4);
     border: 1px solid rgba(255, 255, 255, 0.4);
     color: var(--deep);
 }
+
 .glass-card .form-control::placeholder {
     color: rgba(123, 67, 151, 0.7);
 }
+
 .glass-card .form-label {
     color: var(--deep);
     font-weight: 500;
 }
+
 .registration-bg {
     background: var(--hero-bg);
 }
-.hero-gradient {
-    background: linear-gradient(135deg, var(--lavender) 0%, var(--blush) 55%, #fff 100%);
-}
+

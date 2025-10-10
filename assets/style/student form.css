@@ -18,7 +18,7 @@ body {
 
 /* Success background state */
 body.success-bg {
-  background-image: url("https://images.pexels.com/photos/4050362/pexels-photo-4050362.jpeg");
+  background-image: url("../img/student-success-card-bg.jpeg");
   background-color: transparent;
 }
 
@@ -179,7 +179,16 @@ body.success-bg {
 
 /* Hero section styling */
 .hero-gradient {
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.2));
-  -webkit-backdrop-filter: blur(5px);
-  backdrop-filter: blur(5px);
+  background: 
+    linear-gradient(
+      135deg,
+      rgba(230, 220, 255, 0.7) 0%,   /* lavender */
+      rgba(255, 200, 210, 0.7) 55%,  /* blush */
+      rgba(255, 255, 255, 0.7) 100%  /* white */
+    ),
+    url('https://storylab.co/wp-content/uploads/2022/03/AdobeStock_445841242.jpg');
+    
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
